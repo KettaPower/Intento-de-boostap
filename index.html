@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>intento de boostrap</title>
+    <link rel="stylesheet" href="./bootstrap2.min.css">
+</head>
+<body>
+ <div class="container-fluid bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Donuts!</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">TIENDA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Casa</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Borrar planeta tierra</a></li>
+                  <li><a class="dropdown-item" href="#">Pedir donas</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Hola! ocupo espacio</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+ </div>
+
+<div class="">
+    <div id="carouselExampleIndicators" class="carousel slide d-flex" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./media/donas-con-matcha.jpg" class="d-block w-100 img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./media/maxresdefault.jpg" class="d-block w-100 img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./media/Skype_Picture-1100x500.png" class="d-block w-100 img-fluid" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+
+<h1 class="row justify-content-center">
+    NUESTRA TIENDA ES LA MEJOR DEL MUNDO
+</h1>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col">
+            <ol class="list-group list-group-numbered">
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Todas las donas</div>
+                    Todas nuestras donas disponibles
+                  </div>
+                  <span class="badge bg-primary rounded-pill">+999</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Reseñas!</div>
+                    Clientes contentos!!
+                  </div>
+                  <span class="badge bg-primary rounded-pill">+420</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold">Tenda</div>
+                      No contamos con sucursal en el planeta tierra
+                    </div>
+                    <span class="badge bg-primary rounded-pill">0</span>
+                  </li>
+              </ol>
+        </div>
+    </div>
+</div>
+
+    <div class="row mt-5">
+        <div class="col-4">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./media/maxresdefault.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">LAS MEJORES DONAS</h5>
+                      <p class="card-text">Este es un texto de prueba de generacion de cartas en boostrap a ver como me queda </p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./media/donas-con-matcha.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">LAS MEJORES DONAS</h5>
+                      <p class="card-text">Este es un texto de prueba de generacion de cartas en boostrap a ver como me queda </p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./media/Skype_Picture-1100x500.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">LAS MEJORES DONAS</h5>
+                  <p class="card-text">Este es un texto de prueba de generacion de cartas en boostrap a ver como me queda </p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div></div>
+    </div>
+<div class="row">
+    <div class="col-9">
+        <h2 class="">TENEMOS DONAS PERSONALIZADAS</h2>
+        <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa iste saepe alias repellat? Id, iusto, porro dignissimos laboriosam exercitationem velit optio provident ullam eveniet maiores et corrupti repellendus non magni?</p>
+    </div>
+    <div class="col-3">
+        <img src="./media/donas-con-matcha.jpg" class="img-fluid" alt="">
+    </div>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
